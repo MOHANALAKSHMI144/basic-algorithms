@@ -1,42 +1,47 @@
 #  Algorithm exercises
+1
+Input : input number n 
+Step 1: Start 
+Step 2: Read number n Step 3: Declare sum to 0 and i to 1 
+Step 4: Repeat steps 5 to 7 until i <= n 
+Step 5: update sum as sum = sum + i 
+Step 6: increment i 
+Step 7: Print sum 
+Step 8: Stop 
+Output: sum
+-----------
+2
+step1:start
+step2:Read the number N.
+step3:start the loop from i= 2 to i=N-1.
+step4:If N is divided by "i" in the loop then break the loop.
+step5:If(i==N) # that means loop has executed till the end of range so N is not divided by any number So it is a prime number.
+step6:Else it is not a prime number
+-----------
+3
+step1. Start
+step2. Input three numbers: a, b, c
+step3. If a > b and a > c, then max = a
+step4. Else if b > a and b > c, then max = b
+step5. Else max = c
+step6. Output max
+step7. End
 
-**Problem 1: Calculate the Sum of Natural Numbers**
-
-Write an algorithm that calculates the sum of all natural numbers from 1 to a given number n.
-
-```
-The user should input a value for n.
-The algorithm should compute the sum using a loop and display the result.
-```
-
-**Problem 2: Check for Prime Number**
-
-Write an algorithm that checks if a given number n is a prime number or not.
-```
-The user should input a value for n.
-The algorithm should check whether the number is divisible by any number other than 1 and itself.
-```
-
-**Problem 3: Find the Maximum of Three Numbers**
-
-Write an algorithm that takes three numbers as input and finds the largest of them.
-```
-The user should input three values: a, b, and c.
-The algorithm should compare the numbers and print the maximum value.
-```
-
-**Problem 4: Factorial Calculation**
-
-Write an algorithm that calculates the factorial of a number n.
-```
-The user should input a number n.
-The algorithm should compute the factorial by multiplying all the integers from 1 to n.
-```
-
-**Problem 5: Check if a Number is Even or Odd**
-
-Write an algorithm that checks if a given number n is even or odd.
-```
-The user should input a value for n.
-The algorithm should check whether n is divisible by 2 and display the result as either "Even" or "Odd".
-  ```
+-------------
+4
+Step 1 : Start.
+Start 2 : Read n.
+Start 3 : Initialize counter variable i to 1 and fact to 1.
+Start 4 : if i <= n go to step 5 otherwise goto step 7.
+Start 5 : calculate fact = fact * i.
+Start 6 : increment counter variable i and go to step 4.
+Start 7 : Write fact.
+Start 8 : Stop
+-----------------
+5
+Step 1- Start the program.
+Step 2- Read/input the number.
+Step 3- if n%2==0 then the number is even.
+Step 4- else number is odd.
+Step 5- display the output.
+Step 6- Stop the program
